@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Educlever - Contact Us</title>
+  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header class="top-bar">
+        <div class="auth-links">
+            <a href="login.html">Login</a> | <a href="register.html">Register</a>
+        </div>
+    </header>
+    
+    <nav class="navbar">
+        <div class="logo">LearningCear</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button class="btn-teacher"> <a style="text-decoration: none; color: white;" href="register.html"> Be Teacher </a></button>
+    </nav>
+  <div class="contact-container">
+    <h1>Contact Educlever</h1>
+    <p>If you have any questions, feedback, or need support, feel free to reach out!</p>
+
+    <form action="/send-message" method="POST" class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</body>
+</html>
